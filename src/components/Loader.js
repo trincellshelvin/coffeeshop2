@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { FaCog } from 'react-icons/fa'; // Import Font Awesome Gear Icon
-import styles from './Loader.module.css'; // Import the CSS module
+import styles from '../components/Loader.module.css'; // Import the CSS module
 
 const Loading = ({ isLoading }) => {
     return (

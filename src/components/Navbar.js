@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { FaHome, FaShoppingCart, FaUser, FaSignInAlt, FaBoxOpen } from 'react-icons/fa';
 import { useState, useEffect } from 'react';
 import { getCartItems } from '../utils/cart';
+import styles from '../components/Navbar.module.css';
 
 const HomeNavbar = () => {
     const [cartCount, setCartCount] = useState(0);

@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from './Button';
-import styles from './HeroSection.module.css';
+import styles from '../components/HeroSEction.module.css';
 
 const HeroSection = () => (
     <section className={`${styles.hero} flex items-center justify-center min-h-screen`}>
