@@ -24,13 +24,13 @@ const HomeNavbar = () => {
 
     return (
         <nav style={navbarStyle} className="relative z-10 bg-opacity-75 bg-white py-4 shadow-lg">
-            <div className="max-w-7xl mx-auto flex justify-between items-center px-5">
+            <div className="max-w-7xl mx-auto flex justify-between items-center px-3 md:px-5">
                 <Link href="/" className="flex items-center space-x-2" style={linkStyle}>
-                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-10 h-10" />
+                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-16 h-16" />
                     <span className="text-2xl font-semibold">Steampunk Cyber Cafe</span>
                 </Link>
-                <div className="flex space-x-6 items-center">
-                    <Link href="/" className="hover:underline flex items-center space-x-1"> style={linkStyle}
+                <div className="flex space-x-4 md:space-x-6 items-center">
+                    <Link href="/" className="hover:underline flex items-center space-x-1" style={linkStyle}>
                         <FaHome /> <span>Home</span>
                     </Link>
                     <Link href="/products" className="hover:underline flex items-center space-x-1" style={linkStyle}>
@@ -80,12 +80,12 @@ const SignupNavbar = () => {
 
     return (
         <nav style={navbarStyle} className="relative z-10 bg-opacity-75 bg-white py-4 shadow-lg">
-            <div className="max-w-7xl mx-auto flex justify-between items-center px-5">
+            <div className="max-w-7xl mx-auto flex justify-between items-center px-3 md:px-5">
                 <Link href="/" className="flex items-center space-x-2" style={linkStyle}>
-                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-10 h-10" />
+                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-16 h-16" />
                     <span className="text-2xl font-semibold">Steampunk Cyber Cafe</span>
                 </Link>
-                <div className="flex space-x-6 items-center">
+                <div className="flex space-x-4 md:space-x-6 items-center">
                     <Link href="/" className="hover:underline flex items-center space-x-1" style={linkStyle}>
                         <FaHome /> <span>Home</span>
                     </Link>
@@ -129,12 +129,12 @@ const LoginNavbar = () => {
     };
     return (
         <nav style={navbarStyle} className="relative z-10 bg-opacity-75 bg-white py-4 shadow-lg">
-            <div className="max-w-7xl mx-auto flex justify-between items-center px-5">
+            <div className="max-w-7xl mx-auto flex justify-between items-center px-3 md:px-5">
                 <Link href="/" className="flex items-center space-x-2" style={linkStyle}>
-                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-10 h-10" />
+                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-16 h-16" />
                     <span className="text-chocolate-brown text-2xl font-semibold">Steampunk Cyber Cafe</span>
                 </Link>
-                <div className="flex space-x-6 text-chocolate-brown items-center">
+                <div className="flex space-x-4 md:space-x-6 text-chocolate-brown items-center">
                 <Link href="/" className="hover:underline flex items-center space-x-1" style={linkStyle}>
                         <FaHome /> <span>Home</span>
                     </Link>
@@ -182,12 +182,12 @@ const CartNavbar = () => {
 
     return (
         <nav style={navbarStyle} className="relative z-10 bg-opacity-75 bg-white py-4 shadow-lg w-full">
-            <div className="flex justify-between items-center px-5 md:px-10 w-full">
+            <div className="flex justify-between items-center px-3 md:px-5 md:px-10 w-full">
                 <Link href="/" className="flex items-center space-x-2" style={linkStyle}>
-                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-10 h-10" />
+                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-16 h-16" />
                     <span className="text-chocolate-brown text-2xl font-semibold">Steampunk Cyber Cafe</span>
                 </Link>
-                <div className="flex space-x-6 text-chocolate-brown items-center ml-auto">
+                <div className="flex space-x-4 md:space-x-6 text-chocolate-brown items-center ml-auto">
                     <Link href="/" className="hover:underline flex items-center space-x-1" style={linkStyle}>
                         <FaHome /> <span>Home</span>
                     </Link>
@@ -235,12 +235,12 @@ const CheckoutNavbar = () => {
 
     return (
         <nav style={navbarStyle} className="relative z-10 bg-opacity-75 bg-white py-4 shadow-lg">
-            <div className="max-w-7xl mx-auto flex justify-between items-center px-5">
+            <div className="max-w-7xl mx-auto flex justify-between items-center px-3 md:px-5">
                 <Link href="/" className="flex items-center space-x-2" style={linkStyle}>
-                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-10 h-10" />
+                    <img src="/steampunkcybercafelogo.jpg" alt="Steampunk Cyber Cafe" className="logo w-16 h-16" />
                     <span className="text-chocolate-brown text-2xl font-semibold">Steampunk Cyber Cafe</span>
                 </Link>
-                <div className="flex space-x-6 text-chocolate-brown items-center">
+                <div className="flex space-x-4 md:space-x-6 text-chocolate-brown items-center">
                     <Link href="/" className="hover:underline flex items-center space-x-1" style={linkStyle}>
                         <FaHome /> <span>Home</span>
                     </Link>

@@ -6,6 +6,9 @@
     /* Adjust gap as needed */
     padding: 20px;
     /* Adjust padding as needed */
+    /* light brown background from theme */
+    background-color: #fdf2eb;
+    min-height: 100vh;
 }
 
 .cart-items {
@@ -17,6 +20,7 @@
 
 .cart-item {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
@@ -24,6 +28,13 @@
     /* Example styling */
     border-radius: 5px;
     /* Example styling */
+}
+
+.cart-item img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    margin-right: 1rem;
 }
 
 .checkout-button {

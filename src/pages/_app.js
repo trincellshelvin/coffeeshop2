@@ -1,6 +1,5 @@
-import '../styles/globals.css'; 
+import '../styles/globals.css';
 import '../styles/cart.css';
-import 'tailwindcss/tailwind.css'; 
 import { AuthProvider } from '../context/AuthContext'; // Adjust the path accordingly
 import dynamic from 'next/dynamic';
 import { useRouter } from 'next/router';
